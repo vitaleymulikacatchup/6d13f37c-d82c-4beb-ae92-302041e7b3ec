@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -69,21 +69,21 @@ export default function LandingPage() {
               id: "car-1",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765285859623-wqwdo8j7.jpg",
               imageAlt: "High-performance sports car model",
-              button: { text: "View Details", id: "view-car-1" },
+              button: { text: "View Details" },
               isFavorited: false
             },
             {
               id: "car-2",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765285860811-lauv36y2.jpg",
               imageAlt: "Luxury performance vehicle",
-              button: { text: "View Details", id: "view-car-2" },
+              button: { text: "View Details" },
               isFavorited: false
             },
             {
               id: "car-3",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765285861926-cclppy16.jpg",
               imageAlt: "Exotic racing vehicle showcase",
-              button: { text: "View Details", id: "view-car-3" },
+              button: { text: "View Details" },
               isFavorited: false
             }
           ]}
